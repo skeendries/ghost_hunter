@@ -1,0 +1,89 @@
+*
+{
+  margin:  0;
+  padding: 0;
+}
+
+.container
+{
+  width: 1200px;
+  margin: 0 auto;
+}
+.header-wrap
+{
+  min-height: 4rem;
+  background-color: #009098;
+}
+.header
+{
+  display: flex;
+  padding: 1rem 0 0 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.zizurz
+{
+  padding: 1rem;
+  color: white;
+  background-color: #1a2342;
+  font-size: 36pt;
+  transform: translateY(30%);
+}
+.navbar
+{
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.label
+{
+  background-color: #1a2342;
+  color: white;
+  padding: 0.5rem;
+}
+.title-header
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+  background: url("girl1.png") 70% 70% no-repeat;
+  background-position: -35% 0;
+  min-height: 23rem;
+  border: 1px solid #1a2342;
+}
+.contents
+{
+  margin-top: 50px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.caption
+{
+  flex: 1 1 auto;
+  max-width: 250px;
+}
+.caption>img
+{
+  width:100%;
+  border-radius: 3px;
+  border: 3px solid #009098;
+}
+.caption>p
+{
+  margin-top: 10px;
+}
+.conclusion
+{
+  display: flex;
+  justify-content: space-between;
+}
+.featured
+{
+  flex: 1 1 auto;
+  border: 4px solid #009098;
+  border-radius: 4px;
+}
